@@ -1,0 +1,38 @@
+h1, h2 {
+    color: #1b9bbb
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    column-width: 100%;
+}
+
+.nav {
+    padding: 0.5rem;
+    background-color: #723d64;
+    height:5rem;
+}
+
+.login-button {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button button {
+    text-decoration: none;
+    background-color: #732d64;
+    padding: 18px 36px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.search-box {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}

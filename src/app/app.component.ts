@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import * as FHIR from 'fhirclient';
+import { fhirclient } from 'fhirclient/lib/types';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'smart-fhir-sandbox';
+  name: string;
+  isAuth: boolean = false;
+
+  constructor() {
+    this.name = 'Jefferey Johnson Swanson';
+  }
+
+  authorize(): void {
+    this.isAuth = true;
+  }
 }
