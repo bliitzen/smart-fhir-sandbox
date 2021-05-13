@@ -1,12 +1,6 @@
 
 <div class="container">
-    <div class="nav">
-        <h1>SMART on Fhir Test Environment</h1>
-    </div>
-    
-    <div class="login-button" *ngIf="!isAuth">
-        <button mat-raised-button (click)="authorize()">Login</button>
-    </div>
+    <app-navbar></app-navbar>
 
     <div class="search-box" *ngIf="isAuth">
         <h2>Welcome {{ name }}!</h2>

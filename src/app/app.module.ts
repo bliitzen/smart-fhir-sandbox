@@ -7,11 +7,13 @@ import { PatientViewComponent } from './patient-view/patient-view.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatInputModule } from '@angular/material/input';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PatientViewComponent
+    PatientViewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

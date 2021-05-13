@@ -1,0 +1,24 @@
+.container {
+    background-color: #732d64;
+    height: 3.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-left: 1rem;
+    color: whitesmoke;
+}
+
+a {
+    background-color: #732d64;
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-left: 2px solid white;
+    width: 10%;
+    padding: auto;
+}
+

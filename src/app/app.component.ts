@@ -15,8 +15,4 @@ export class AppComponent {
   constructor() {
     this.name = 'Jefferey Johnson Swanson';
   }
-
-  authorize(): void {
-    this.isAuth = true;
-  }
 }
